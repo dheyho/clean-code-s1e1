@@ -25,8 +25,9 @@ body {
 
 
 @media (max-width:768px) {
-.header__eisenhower-matrix { text-align: center;
-}
+.header__eisenhower-matrix { 
+    text-align: center;
+    }
 }
 
 
@@ -37,14 +38,14 @@ body {
 }
 
 
-.task {
+.main__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
 
-.task-row-wrapper {
+.main__task-row-wrapper {
     display: flex;
 }
 
@@ -162,19 +163,19 @@ li >    input[type="text"] {
 }
 
 
-li > button.delete:hover {
+li > button.main__delete:hover {
     color: #cf2323;
 }
 
 
-button.delete img {
+button.main__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
 
-button.delete img:hover {
+button.main__delete img:hover {
     transform: rotateZ(0);
 }
 
@@ -192,12 +193,12 @@ ul li input[type=text] {
 }
 
 
-ul li.editMode input[type=text] {
+ul li.main__editMode input[type=text] {
     display:inline-block;
     width:224px;
 }
 
 
-ul li.editMode label {
+ul li.main__editMode label {
     display:none;
 }
