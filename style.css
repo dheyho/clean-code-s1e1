@@ -19,7 +19,7 @@ body {
 }
 
 
-.header__eisenhower-matrix .header__more-info {
+.header__eisenhower-matrix, .header__more-info {
     font-family: fantasy, cursive;
 }
 
